@@ -2,19 +2,19 @@
 // Cada página define <body data-page="..."> para marcar o item ativo.
 (function () {
   const PAGES = [
-    { id: 'home', label: 'home', href: 'index.html' },
-    { id: 'sobre', label: 'sobre', href: 'sobre.html' },
-    { id: 'guia', label: 'guia experimental', href: 'guia.html' },
-    { id: 'experimento', label: 'experimento', href: 'experimento.html' },
-    { id: 'faq', label: 'FAQ', href: 'faq.html' },
-    { id: 'dicas', label: 'DICAS', href: 'dicas.html' },
+    { id: 'home', label: 'home', href: './' },
+    { id: 'sobre', label: 'sobre', href: 'sobre' },
+    { id: 'guia', label: 'guia experimental', href: 'guia' },
+    { id: 'experimento', label: 'experimento', href: 'experimento' },
+    { id: 'faq', label: 'FAQ', href: 'faq' },
+    { id: 'dicas', label: 'DICAS', href: 'dicas' },
   ];
 
   const current = document.body.dataset.page || 'home';
   const cur = (id) => (id === current ? ' aria-current="page"' : '');
 
   const brand = `
-    <a class="brand" href="index.html" aria-label="ToxGen — início">
+    <a class="brand" href="./" aria-label="ToxGen — início">
       <img class="brand-icon" src="assets/logo/logo-mark.svg" alt="" width="46" height="56">
       <span class="brand-name">Tox<b>Gen</b><small>CITOGENÉTICA · EDUCAÇÃO · CIÊNCIA</small></span>
     </a>`;
@@ -50,7 +50,7 @@
           <h4>Contato</h4>
           <ul>
             <li><a href="mailto:contato@citogeneticalab.com.br">contato@citogeneticalab.com.br</a></li>
-            <li><a href="faq.html">Dúvidas frequentes</a></li>
+            <li><a href="faq">Dúvidas frequentes</a></li>
           </ul>
         </div>
       </div>

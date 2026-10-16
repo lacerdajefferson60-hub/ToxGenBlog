@@ -1,0 +1,13 @@
+// Configuração do Worker de produção (Cloudflare Workers — site estático).
+// O nome precisa ser igual ao do Worker no painel da Cloudflare.
+{
+  "name": "toxgenblog",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./site",
+    // /sobre serve sobre.html; /sobre.html redireciona para /sobre
+    "html_handling": "auto-trailing-slash",
+    // Endereços inexistentes mostram site/404.html
+    "not_found_handling": "404-page"
+  }
+}
