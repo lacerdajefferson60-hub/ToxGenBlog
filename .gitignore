@@ -1,0 +1,7 @@
+# Metadados do Windows/WSL
+*:Zone.Identifier
+Thumbs.db
+.DS_Store
+
+# Material de referência (mockups, PDF original) — não vai para produção
+referencias/

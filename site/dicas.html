@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dicas · ToxGen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logo/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dicas">
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Dicas</p>
+        <h1>Dicas de bancada</h1>
+        <p>Pequenos cuidados que fazem diferença nos resultados.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filtrar dicas">
+          <button class="chip" data-filter="all" aria-pressed="true">Todas</button>
+          <button class="chip" data-filter="cultivo" aria-pressed="false">Cultivo</button>
+          <button class="chip" data-filter="laminas" aria-pressed="false">Lâminas</button>
+          <button class="chip" data-filter="microscopia" aria-pressed="false">Microscopia</button>
+          <button class="chip" data-filter="dados" aria-pressed="false">Dados</button>
+        </div>
+        <div class="grid grid-3">
+          <article class="card tip" data-cat="cultivo"><span class="tag">Cultivo</span><h3>Troque a água todos os dias</h3><p>Evita contaminação por fungos e bactérias e mantém a oxigenação das raízes.</p></article>
+          <article class="card tip" data-cat="cultivo"><span class="tag">Cultivo</span><h3>Escolha bulbos uniformes</h3><p>Bulbos do mesmo tamanho e lote reduzem a variabilidade entre repetições.</p></article>
+          <article class="card tip" data-cat="cultivo"><span class="tag">Cultivo</span><h3>Colete no horário certo</h3><p>A atividade mitótica é maior no fim da manhã; padronize o horário de coleta em todos os grupos.</p></article>
+          <article class="card tip" data-cat="laminas"><span class="tag">Lâminas</span><h3>Use só a ponta corada</h3><p>Descarte a coifa e o restante da raiz: apenas o meristema (1–2 mm) tem células em divisão.</p></article>
+          <article class="card tip" data-cat="laminas"><span class="tag">Lâminas</span><h3>Esmague com o polegar</h3><p>Cubra a lamínula com papel-filtro e pressione verticalmente, sem deslizar, para obter uma monocamada.</p></article>
+          <article class="card tip" data-cat="laminas"><span class="tag">Lâminas</span><h3>Não exagere na hidrólise</h3><p>Hidrólise longa demais degrada o DNA e enfraquece a coloração de Feulgen.</p></article>
+          <article class="card tip" data-cat="microscopia"><span class="tag">Microscopia</span><h3>Percorra a lâmina em zigue-zague</h3><p>Evita contar o mesmo campo duas vezes e garante uma amostragem representativa.</p></article>
+          <article class="card tip" data-cat="microscopia"><span class="tag">Microscopia</span><h3>Faça a análise às cegas</h3><p>Codifique as lâminas para que o analista não saiba o tratamento — isso reduz vieses.</p></article>
+          <article class="card tip" data-cat="dados"><span class="tag">Dados</span><h3>Registre tudo em planilha</h3><p>Anote as contagens por fase e por tipo de aberração; use a <a href="experimento.html">calculadora</a> para conferir os índices.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

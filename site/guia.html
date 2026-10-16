@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guia experimental · ToxGen</title>
+  <meta name="description" content="Guia experimental do bioensaio de Allium cepa em testes de citogenotoxicidade: protocolo, cronograma, fases da mitose e anormalidades cromossômicas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,400&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logo/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="guia">
+  <div class="read-progress" aria-hidden="true"><span></span></div>
+  <main>
+    <section class="page-hero guide-hero">
+      <div class="container guide-hero-inner">
+        <div>
+          <p class="eyebrow">Guia experimental</p>
+          <h1>Bioensaio de <em class="sp">Allium cepa</em> em testes de citogenotoxicidade</h1>
+          <p>Protocolo ilustrado, cronograma e atlas das principais anormalidades cromossômicas e nucleares, com fotos reais de microscopia.</p>
+          <p class="authors">Ana Ingrid Felix da Silva · Vitória Josué Vieira · Érica Garcia da Silva · Alex de Oliveira Silva · Ivandilson Pessoa Pinto de Menezes</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" data-open-viewer="1">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 6.5C10.2 5 7.7 4.5 3 4.5v14c4.7 0 7.2.5 9 2 1.8-1.5 4.3-2 9-2v-14c-4.7 0-7.2.5-9 2zm-1 11.4c-1.6-.8-3.7-1.2-6-1.3V6.5c3 .1 4.7.5 6 1.4v10zm8-1.3c-2.3.1-4.4.5-6 1.3V7.9c1.3-.9 3-1.3 6-1.4v10.1z"/></svg>
+              Folhear o guia
+            </button>
+            <a class="btn btn-outline" href="assets/guia/guia-experimental-allium-cepa.pdf" download>Baixar PDF (14 MB)</a>
+          </div>
+        </div>
+        <button class="guide-cover" type="button" data-open-viewer="1" aria-label="Abrir o guia na capa">
+          <img src="assets/guia/paginas/p01.webp" alt="Capa do Guia Experimental: Bioensaio de Allium cepa em testes de citogenotoxicidade" width="1000" height="1413">
+        </button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container layout-aside">
+        <aside class="toc" aria-label="Nesta página">
+          <p class="eyebrow">Nesta página</p>
+          <ol>
+            <li><a href="#apresentacao">Apresentação</a></li>
+            <li><a href="#contexto">Contextualização</a></li>
+            <li><a href="#modelo">1 · Sistema modelo</a></li>
+            <li><a href="#experimento">2 · Experimento</a></li>
+            <li><a href="#procedimento">Procedimento</a></li>
+            <li><a href="#passo-a-passo">Passo a passo</a></li>
+            <li><a href="#tempos">Tempos e cronômetro</a></li>
+            <li><a href="#cronograma">Cronograma</a></li>
+            <li><a href="#analise">3 · Análise microscópica</a></li>
+            <li><a href="#fases">Fases da mitose</a></li>
+            <li><a href="#anormalidades">Anormalidades</a></li>
+            <li><a href="#quiz">Teste seus conhecimentos</a></li>
+          </ol>
+        </aside>
+
+        <div class="prose guide">
+          <section id="apresentacao">
+            <h2>Apresentação</h2>
+            <p>Este guia é resultado de um trabalho de iniciação científica desenvolvido com o apoio do Conselho Nacional de Desenvolvimento Científico e Tecnológico (<strong>CNPq</strong>), reunindo os resultados da pesquisa “Indução de anormalidades cromossômicas em <em>Allium cepa</em> L. por agentes tóxicos”. O material foi elaborado pela graduanda em Biologia Ana Ingrid Felix da Silva, sob orientação do Prof. Dr. Ivandilson Pessoa Pinto de Menezes e coorientação do Prof. Me. Alex de Oliveira Silva, com o objetivo de transformar conhecimentos científicos em um recurso didático acessível para o ensino de citogenética e toxicologia ambiental.</p>
+            <details class="read-more">
+              <summary>Ler apresentação completa</summary>
+              <p>A elaboração deste guia busca suprir a escassez de materiais didáticos voltados à identificação e interpretação de alterações citogenéticas em bioensaios com <em>Allium cepa</em>, facilitando a compreensão das anormalidades nucleares e cromossômicas observadas em análises microscópicas. Dessa forma, o material converte resultados de pesquisa em um instrumento pedagógico ilustrado, contribuindo para a realização de experimentos e para a compreensão dos efeitos de agentes com potencial citotóxico e genotóxico.</p>
+              <p>Sua fundamentação baseia-se em protocolos consolidados na literatura científica, especialmente nos estudos de Fiskesjö (1988), Rank e Nielsen (1998), Leme e Marin-Morales (2009) e Yadav e Kumar (2010), que reconhecem <em>Allium cepa</em> como um modelo eficiente para a detecção de efeitos citotóxicos e genotóxicos devido à elevada sensibilidade das células meristemáticas radiculares e à facilidade de observação das alterações cromossômicas.</p>
+              <p>Ao reunir conceitos, protocolos e exemplos ilustrativos das principais anormalidades cromossômicas, este guia oferece suporte às atividades laboratoriais, fortalece a formação científica ao integrar teoria e prática e contribui para o desenvolvimento da autonomia investigativa dos estudantes. Espera-se, ainda, que a publicação subsidie atividades de ensino e pesquisa, estimulando novos estudos em citogenética vegetal, biomonitoramento e toxicologia ambiental, reafirmando o compromisso com a produção científica e a educação de qualidade.</p>
+            </details>
+          </section>
+
+          <section id="contexto">
+            <h2>Contextualização</h2>
+            <p>O aumento das atividades industriais e agrícolas tem intensificado a liberação de compostos químicos no ambiente, muitos dos quais apresentam potencial genotóxico e podem comprometer a integridade genética dos organismos (Leme; Marin-Morales, 2009). O acúmulo desses danos pode resultar em anormalidades cromossômicas que afetam o funcionamento celular e a estabilidade do material genético.</p>
+            <p>A identificação dessas alterações é realizada por meio de biomarcadores citogenéticos, como o <strong>índice mitótico</strong>, a formação de <strong>micronúcleos</strong> e diferentes <strong>anormalidades cromossômicas</strong>, amplamente utilizados em estudos de genotoxicidade. Entretanto, ainda há escassez de materiais didáticos que sistematizem, de forma clara e acessível, a aplicação do teste com <em>Allium cepa</em>.</p>
+            <p>Este guia foi elaborado com base no método proposto por Albert Levan, referência na citogenética moderna. O teste de <em>Allium cepa</em> destaca-se como uma ferramenta confiável para a avaliação da genotoxicidade, citotoxicidade e mutagenicidade, sendo amplamente empregado como bioindicador ambiental (Levan, 1938). Sua utilização é favorecida pelo baixo custo, facilidade de cultivo, presença de cromossomos grandes e pela ausência das implicações éticas relacionadas ao uso de animais em experimentação (Fiskesjö, 1985; Tedesco; Laughinghouse, 2012).</p>
+          </section>
+
+          <section id="modelo">
+            <h2><span class="chapter">1</span> Sistema modelo vegetal</h2>
+            <div class="split">
+              <figure class="zoomable">
+                <img src="assets/guia/fig/fig1-morfologia.webp" alt="Morfologia da cebola: túnicas, gema apical, catáfilos internos, prato basal e raízes fasciculadas" loading="lazy">
+                <figcaption><strong>Figura 1</strong> — Morfologia radicular de <em>Allium cepa</em> utilizada na avaliação dos biomarcadores morfométricos.</figcaption>
+              </figure>
+              <aside class="callout">
+                <h3>O que é <em>Allium cepa</em>?</h3>
+                <p>A cebola (<em>Allium cepa</em> L.) é uma planta bienal da família Alliaceae. Possui folhas ocas e cerosas, sistema radicular fasciculado e pseudocaule formado pelas bainhas das folhas. Seu principal órgão é o bulbo, responsável pelo armazenamento de reservas e pela produção de sementes no segundo ano de cultivo.</p>
+              </aside>
+            </div>
+            <p><strong>Morfologia:</strong> a cebola apresenta uma morfologia característica, composta por estruturas especializadas que desempenham funções relacionadas à sustentação, absorção de água e nutrientes, crescimento vegetativo e armazenamento de reservas. O bulbo, principal órgão de reserva da planta, é formado por folhas modificadas denominadas <strong>catáfilos</strong>, organizadas sobre um caule reduzido conhecido como <strong>prato basal</strong> ou disco caulinar. Além disso, a espécie possui sistema radicular fasciculado, folhas fistulosas, pseudocaule e gema apical (Manfron; Garcia; Andriolo, 1992).</p>
+            <div class="note"><strong>Saiba mais — Meristema radicular:</strong> situado no ápice das raízes, concentra células em intensa divisão mitótica, sendo a principal região utilizada para a observação de cromossomos e identificação de alterações citogenéticas em <em>Allium cepa</em> L.</div>
+          </section>
+
+          <section id="experimento">
+            <h2><span class="chapter">2</span> Experimento</h2>
+            <p>O teste tem como objetivo identificar possíveis efeitos <strong>citotóxicos</strong> e <strong>genotóxicos</strong> em células meristemáticas de raízes de <em>Allium cepa</em>, após exposição a diferentes substâncias químicas. A análise é realizada por meio da observação das divisões celulares nas raízes, permitindo detectar alterações no ciclo celular e anormalidades cromossômicas indicativas de danos ao material genético.</p>
+
+            <div class="checklist" data-checklist="materiais">
+              <div class="checklist-head">
+                <h3>Materiais</h3>
+                <span class="checklist-count" aria-live="polite"></span>
+                <button class="link-btn" type="button" data-reset>Limpar</button>
+              </div>
+              <p class="hint">Marque o que já separou — o progresso fica salvo neste navegador.</p>
+              <ul>
+                <li><label><input type="checkbox"> Bulbos de cebola (<em>Allium cepa</em>)</label></li>
+                <li><label><input type="checkbox"> Água destilada</label></li>
+                <li><label><input type="checkbox"> Béqueres ou copos de vidro</label></li>
+                <li><label><input type="checkbox"> Solução-teste</label></li>
+                <li><label><input type="checkbox"> Solução de Carnoy</label></li>
+                <li><label><input type="checkbox"> Ácido clorídrico (HCl 1 mol/L)</label></li>
+                <li><label><input type="checkbox"> Safranina</label></li>
+                <li><label><input type="checkbox"> Aquecedor</label></li>
+                <li><label><input type="checkbox"> Pinça</label></li>
+                <li><label><input type="checkbox"> Tesoura ou bisturi</label></li>
+                <li><label><input type="checkbox"> Lâminas de microscopia</label></li>
+                <li><label><input type="checkbox"> Lamínulas</label></li>
+                <li><label><input type="checkbox"> Microscópio óptico</label></li>
+                <li><label><input type="checkbox"> Jaleco</label></li>
+                <li><label><input type="checkbox"> Luvas descartáveis</label></li>
+              </ul>
+            </div>
+            <div class="note warn"><strong>Importante:</strong> utilize equipamentos de proteção individual (jaleco e luvas) durante todo o procedimento e manuseie as substâncias químicas com cuidado.</div>
+          </section>
+
+          <section id="procedimento">
+            <h2>Procedimento experimental</h2>
+            <h3>Enraizamento</h3>
+            <p>O enraizamento consiste na indução do crescimento de raízes na base dos bulbos, etapa essencial para obtenção de células em divisão. Devem ser selecionados bulbos íntegros, com remoção cuidadosa das camadas externas sem danificar a base. Em seguida, colocar em água destilada, mantendo apenas a base em contato, sob temperatura de <strong>20–25 °C</strong> e luz difusa. Trocar a água diariamente. O processo dura de <strong>24 a 72 horas</strong>, sendo ideais raízes entre <strong>0,5 e 2,0 cm</strong> (Fiskesjö, 1985).</p>
+            <h3>Organização experimental</h3>
+            <p>Os bulbos previamente enraizados devem ser distribuídos de forma aleatória e independente entre os grupos experimentais. O experimento deve incluir um <strong>controle negativo</strong> (água destilada ou declorada), que representa a condição normal; um <strong>controle positivo</strong>, contendo uma substância de efeito citotóxico e genotóxico conhecido, utilizado para validar o bioensaio; e um ou mais <strong>tratamentos teste</strong>, nos quais os bulbos são expostos à substância em avaliação. Recomenda-se a utilização de, no mínimo, <strong>três réplicas independentes por grupo experimental</strong>.</p>
+            <div class="table-wrap">
+              <table class="data">
+                <caption><strong>Figura 2</strong> — Substâncias utilizadas no experimento e suas respectivas concentrações.</caption>
+                <thead><tr><th>Substância</th><th>Concentração</th><th>Referência</th></tr></thead>
+                <tbody>
+                  <tr><td>Dimetilsulfóxido (DMSO)</td><td>0,1%</td><td>Yildiz et al. (2009)</td></tr>
+                  <tr><td>Sulfato de cobre (CuSO₄·5H₂O)</td><td>1,5 mg/L</td><td>Finkler et al. (2022)</td></tr>
+                  <tr><td>Glifosato</td><td>5 mg/L, 0,65 mg/L e 0,065 mg/L</td><td>Sabeen et al. (2020)</td></tr>
+                  <tr><td>Nanopartículas</td><td>Conforme o tipo de nanopartícula empregada</td><td>Scherer et al. (2019)</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Montagem experimental</h3>
+            <div class="groups">
+              <div><strong>3–5</strong><span>bulbos no controle negativo</span></div>
+              <div><strong>3–5</strong><span>bulbos no controle positivo, por substância</span></div>
+              <div><strong>3–5</strong><span>bulbos por concentração de tratamento</span></div>
+            </div>
+            <p>Sempre que possível, devem ser realizadas repetições experimentais, visando aumentar a confiabilidade dos resultados.</p>
+          </section>
+
+          <section id="passo-a-passo">
+            <h2>Passo a passo</h2>
+            <div class="split">
+              <figure class="zoomable">
+                <img src="assets/guia/fig/fig3-preparo.webp" alt="Etapas: limpeza e preparo do bulbo, crescimento inicial das raízes em água destilada e exposição aos tratamentos seguida de fixação em Carnoy" loading="lazy">
+                <figcaption><strong>Figura 3</strong> — Etapas iniciais do preparo das raízes de cebola para análise microscópica.</figcaption>
+              </figure>
+              <aside class="callout">
+                <h3>Saiba mais: Carnoy</h3>
+                <p>A solução fixadora de <strong>Carnoy (3:1)</strong> é composta por três partes de etanol absoluto e uma parte de ácido acético glacial. Sua função é preservar os tecidos e a integridade dos cromossomos, interrompendo a divisão celular e possibilitando análises citogenéticas confiáveis (Guerra; Souza, 2002).</p>
+              </aside>
+            </div>
+
+            <h3>Fixação das raízes e preparação de lâminas</h3>
+            <div class="stepper" data-stepper>
+              <div class="stepper-stage">
+                <img alt="" data-step-img>
+                <span class="stepper-num" data-step-num></span>
+              </div>
+              <div class="stepper-body">
+                <p class="stepper-label" data-step-label></p>
+                <p class="stepper-text" data-step-text aria-live="polite"></p>
+                <div class="stepper-nav">
+                  <button class="btn btn-outline" type="button" data-prev>← Anterior</button>
+                  <button class="btn btn-primary" type="button" data-next>Próxima →</button>
+                </div>
+                <div class="stepper-dots" data-dots role="tablist" aria-label="Etapas"></div>
+              </div>
+            </div>
+            <p class="fig-source"><strong>Figura 4</strong> — Fixação das raízes e preparação de lâminas. Use as setas do teclado para navegar.</p>
+            <div class="note"><strong>Saiba mais — Safranina:</strong> utilizada como corante para evidenciar as estruturas celulares, facilitando a visualização dos cromossomos ao microscópio. O HCl foi empregado para promover a hidrólise ácida e o amolecimento dos tecidos da raiz, facilitando a dissociação das células e o espalhamento do material durante a preparação da lâmina. O tempo de exposição ao HCl e à safranina pode variar conforme o protocolo adotado e a substância em análise.</div>
+          </section>
+
+          <section id="tempos">
+            <h2>Tempos de HCl e safranina</h2>
+            <div class="table-wrap">
+              <table class="data">
+                <caption><strong>Figura 5</strong> — Tempo de tratamento com HCl e coloração com safranina dos grupos utilizados na pesquisa.</caption>
+                <thead><tr><th>Tratamento</th><th>Tempo no HCl (1 M)</th><th>Tempo na safranina</th></tr></thead>
+                <tbody>
+                  <tr><td>Controle negativo (água destilada)</td><td>6–7 minutos</td><td>1–2 minutos</td></tr>
+                  <tr><td>Controle positivo (sulfato de cobre – CuSO₄)</td><td>5 minutos</td><td>1 minuto</td></tr>
+                  <tr><td>Glifosato</td><td>4–5 minutos</td><td>1 minuto</td></tr>
+                  <tr><td>DMSO</td><td>4–5 minutos</td><td>1 minuto</td></tr>
+                  <tr><td>Nanopartículas</td><td>5 minutos</td><td>1 minuto</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="timer" data-timer>
+              <div class="timer-head">
+                <h3>Cronômetro de bancada</h3>
+                <p>Escolha o tratamento e a etapa: o cronômetro avisa quando entrar na janela de tempo indicada.</p>
+              </div>
+              <div class="timer-controls">
+                <label class="field"><span>Tratamento</span>
+                  <select data-timer-group>
+                    <option value="neg">Controle negativo</option>
+                    <option value="pos">Controle positivo (CuSO₄)</option>
+                    <option value="gli">Glifosato</option>
+                    <option value="dmso">DMSO</option>
+                    <option value="nano">Nanopartículas</option>
+                  </select>
+                </label>
+                <div class="seg" role="group" aria-label="Etapa">
+                  <button type="button" aria-pressed="true" data-timer-stage="hcl">HCl</button>
+                  <button type="button" aria-pressed="false" data-timer-stage="saf">Safranina</button>
+                </div>
+              </div>
+              <div class="timer-display">
+                <strong data-timer-clock>00:00</strong>
+                <span data-timer-target></span>
+                <div class="timer-bar"><span data-timer-window></span><i data-timer-fill></i></div>
+                <p class="timer-status" data-timer-status aria-live="polite">Pronto para iniciar.</p>
+              </div>
+              <div class="timer-actions">
+                <button class="btn btn-primary" type="button" data-timer-start>Iniciar</button>
+                <button class="btn btn-outline" type="button" data-timer-reset>Zerar</button>
+              </div>
+            </div>
+          </section>
+
+          <section id="cronograma">
+            <h2>Cronograma experimental</h2>
+            <ol class="timeline">
+              <li><span class="tl-when">Dia 0</span><h3>Preparação e montagem</h3><p>Preparação dos materiais, soluções e montagem do experimento.</p></li>
+              <li><span class="tl-when">Dias 1 a 3</span><h3>Enraizamento dos bulbos</h3><p>Os bulbos permanecem em contato com água destilada para enraizamento.</p></li>
+              <li><span class="tl-when">24 a 96 h</span><h3>Exposição às soluções-teste</h3><p>Após o enraizamento, os bulbos são transferidos para as soluções-teste pelo período de 24 a 96 horas.</p></li>
+              <li><span class="tl-when">Dia 2 ou 3 após a exposição</span><h3>Fixação das raízes</h3><p>As raízes são retiradas cuidadosamente com pinça e transferidas para a solução fixadora de Carnoy (3:1, etanol absoluto e ácido acético). A fixação ocorre por 12 a 24 horas sob refrigeração. Os recipientes devem ser identificados com grupo, concentração e data do experimento.</p></li>
+            </ol>
+            <p class="fig-source"><strong>Figura 6</strong> — Cronograma experimental.</p>
+          </section>
+
+          <section id="analise">
+            <h2><span class="chapter">3</span> Análise microscópica</h2>
+            <div class="split">
+              <div>
+                <p>O microscópio óptico é fundamental para a observação de estruturas que não podem ser visualizadas a olho nu. Por meio da ampliação proporcionada por suas lentes, permite analisar células, tecidos e microrganismos (Murphy; Davidson, 2012).</p>
+                <p>No teste de <em>Allium cepa</em>, as células da região meristemática são analisadas utilizando inicialmente a <strong>objetiva de menor aumento</strong> para localizar a região de interesse e, posteriormente, a <strong>objetiva de 40×</strong> para a observação detalhada.</p>
+                <p>A identificação das fases mitóticas possibilita o cálculo do <strong>Índice Mitótico (IM)</strong>, indicador da atividade proliferativa das células — veja a <a href="experimento.html">calculadora de índices</a>.</p>
+              </div>
+              <figure class="zoomable">
+                <img src="assets/guia/fig/fig-microscopio.webp" alt="Partes do microscópio óptico: oculares, cabeçote, tubo binocular, revólver, objetivas, mesa porta-objetos, condensador, diafragma, iluminador, base, braço, parafusos macro e micrométrico" loading="lazy">
+                <figcaption>Principais partes do microscópio óptico.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section id="fases">
+            <h2>Fases da divisão celular</h2>
+            <p>Durante a análise podem ser identificadas as principais fases da mitose — prófase, metáfase, anáfase e telófase — além da interfase, período que antecede a divisão celular. A identificação correta dessas fases é fundamental para a determinação do Índice Mitótico.</p>
+            <div class="phases" data-phases>
+              <div class="phase-tabs" role="tablist" aria-label="Fases"></div>
+              <div class="phase-panel" role="tabpanel">
+                <button class="phase-img zoom-trigger" type="button" aria-label="Ampliar foto"><img alt=""></button>
+                <div>
+                  <h3 data-phase-title></h3>
+                  <p class="phase-en" data-phase-en></p>
+                  <p data-phase-desc></p>
+                </div>
+              </div>
+            </div>
+            <p class="fig-source"><strong>Figura 7</strong> — Principais fases da divisão celular. Fotos de <em>Allium cepa</em>; a seta indica a célula de interesse.</p>
+          </section>
+
+          <section id="anormalidades">
+            <h2>Anormalidades cromossômicas e nucleares</h2>
+            <p>As anormalidades cromossômicas são alterações estruturais ou funcionais que surgem durante o ciclo celular em consequência da ação de substâncias tóxicas sobre o DNA ou sobre o fuso mitótico. Funcionam como biomarcadores citogenéticos e, segundo Leme e Marin-Morales (2009), podem ser classificadas em:</p>
+            <div class="grid grid-3 kinds">
+              <div class="kind" data-kind="aneugenica"><h3>Aneugênicas</h3><p>Interferem na distribuição dos cromossomos durante a divisão, geralmente por alterações no fuso mitótico, gerando segregação irregular.</p></div>
+              <div class="kind" data-kind="clastogenica"><h3>Clastogênicas</h3><p>Causadas por quebras na estrutura dos cromossomos: fragmentos, pontes, cromossomos em anel e micronúcleos. Indicam efeito genotóxico.</p></div>
+              <div class="kind" data-kind="nuclear"><h3>Nucleares</h3><p>Alteram forma, estrutura ou número dos núcleos, observadas principalmente em interfase.</p></div>
+            </div>
+            <div class="filters" role="group" aria-label="Filtrar anormalidades" data-ab-filters>
+              <button class="chip" type="button" data-ab-filter="all" aria-pressed="true">Todas</button>
+              <button class="chip" type="button" data-ab-filter="aneugenica" aria-pressed="false">Aneugênicas</button>
+              <button class="chip" type="button" data-ab-filter="clastogenica" aria-pressed="false">Clastogênicas</button>
+              <button class="chip" type="button" data-ab-filter="nuclear" aria-pressed="false">Nucleares</button>
+            </div>
+            <div class="atlas" data-atlas></div>
+            <p class="fig-source"><strong>Figuras 8 e 9</strong> — Anormalidades aneugênicas, clastogênicas e nucleares. Fonte: elaborado pelos autores.</p>
+          </section>
+
+          <section id="quiz">
+            <h2>Teste seus conhecimentos</h2>
+            <div class="quiz" data-quiz>
+              <div class="quiz-img"><img alt="Foto de microscopia para identificar"></div>
+              <div class="quiz-body">
+                <p class="quiz-q">O que esta célula apresenta?</p>
+                <div class="quiz-options" data-quiz-options></div>
+                <p class="quiz-feedback" data-quiz-feedback aria-live="polite"></p>
+                <div class="quiz-foot">
+                  <span data-quiz-score>Acertos: 0 de 0</span>
+                  <button class="btn btn-primary" type="button" data-quiz-next>Próxima foto →</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="cta guide-cta">
+            <div>
+              <h2>Leve o guia completo</h2>
+              <p>Folheie todas as páginas no site ou baixe o PDF para usar em sala e na bancada.</p>
+            </div>
+            <div class="hero-actions">
+              <button class="btn btn-primary" type="button" data-open-viewer="1">Folhear o guia</button>
+              <a class="btn btn-outline" href="assets/guia/guia-experimental-allium-cepa.pdf" download>Baixar PDF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="viewer" data-viewer aria-label="Guia experimental — leitor">
+    <div class="viewer-top">
+      <span data-viewer-count></span>
+      <div>
+        <a class="btn btn-outline btn-sm" href="assets/guia/guia-experimental-allium-cepa.pdf" download>Baixar PDF</a>
+        <button class="viewer-close" type="button" data-viewer-close aria-label="Fechar">✕</button>
+      </div>
+    </div>
+    <div class="viewer-stage">
+      <button class="viewer-arrow" type="button" data-viewer-prev aria-label="Página anterior">‹</button>
+      <img data-viewer-img alt="">
+      <button class="viewer-arrow" type="button" data-viewer-next aria-label="Próxima página">›</button>
+    </div>
+    <div class="viewer-thumbs" data-viewer-thumbs></div>
+  </dialog>
+
+  <dialog class="lightbox" data-lightbox aria-label="Imagem ampliada">
+    <button class="viewer-close" type="button" data-lightbox-close aria-label="Fechar">✕</button>
+    <img data-lightbox-img alt="">
+    <div class="lightbox-text" data-lightbox-text></div>
+  </dialog>
+
+  <script src="js/main.js"></script>
+  <script src="js/guia.js"></script>
+</body>
+</html>
